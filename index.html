@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#173f2b" />
+  <meta name="description" content="Material complementario del estudio morfohistológico de Marchantia polymorpha." />
+  <title>Marchantia polymorpha | Material complementario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow">MATERIAL COMPLEMENTARIO · XIII CONGRESO COLOMBIANO DE BOTÁNICA</p>
+      <h1><em>Marchantia polymorpha</em></h1>
+      <p class="subtitle">Caracterización morfohistológica y documentación del desarrollo reproductivo</p>
+      <p class="authors">Elizabeth Moreno Arango · Brayan Steven Saldaña Ruiz</p>
+      <p class="affiliation">Universidad Distrital Francisco José de Caldas · Bogotá, Colombia</p>
+      <a class="cta" href="#explorar">Explorar el material</a>
+    </div>
+  </header>
+
+  <main id="explorar">
+    <section class="intro section-narrow">
+      <div class="section-kicker">SOBRE EL ESTUDIO</div>
+      <h2>Explora las estructuras observadas</h2>
+      <p>
+        Este recurso reúne fotografías, observaciones microscópicas y modelos 3D asociados a la
+        caracterización morfológica e histológica de <em>Marchantia polymorpha</em> recolectada en
+        el bosque de la Universidad Distrital Francisco José de Caldas, sede Macarena A.
+      </p>
+    </section>
+
+    <section class="section" id="talo">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">01 · ESTRUCTURA VEGETATIVA</div>
+          <h2>Talo</h2>
+        </div>
+        <span class="pill">Morfología + histología</span>
+      </div>
+      <div class="cards" id="talo-cards"></div>
+    </section>
+
+    <section class="section alt" id="sexual">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">02 · REPRODUCCIÓN SEXUAL</div>
+          <h2>Anteridióforo y arquegonióforo</h2>
+        </div>
+        <span class="pill">Estructuras reproductivas</span>
+      </div>
+      <div class="cards" id="sexual-cards"></div>
+    </section>
+
+    <section class="section" id="sporophyte">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">03 · DESARROLLO REPRODUCTIVO</div>
+          <h2>Estados del esporófito</h2>
+        </div>
+        <span class="pill">Registro visual</span>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="section alt" id="models3d">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">04 · EXPLORACIÓN INTERACTIVA</div>
+          <h2>Modelos 3D</h2>
+        </div>
+        <span class="pill">Toca, rota y amplía</span>
+      </div>
+      <p class="muted">Los modelos aparecerán aquí cuando se carguen archivos <code>.glb</code> o <code>.gltf</code> en <code>assets/models/</code>.</p>
+      <div class="model-grid" id="model-grid"></div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">05 · MICROSCOPÍA</div>
+          <h2>Galería fotográfica</h2>
+        </div>
+        <span class="pill">A–J · Figura 1</span>
+      </div>
+      <p class="muted">Aquí se mostrarán las fotografías principales del póster y ampliaciones para consulta desde el celular.</p>
+      <div class="gallery" id="gallery-grid"></div>
+    </section>
+
+    <section class="section alt" id="references">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">06 · REFERENCIAS</div>
+          <h2>Bibliografía</h2>
+        </div>
+        <span class="pill">Material de consulta</span>
+      </div>
+      <div class="refs">
+        <p>Bischler, H. (1984). <em>Marchantia L.: The New World species.</em> Bryophytorum Bibliotheca.</p>
+        <p>Bischler, H., et al. (2005). <em>Marchantiidae. Flora Neotropica Monograph 97.</em></p>
+        <p>Lagos-López, M. E., Sáenz-Jiménez, F., & Morales-Puentes, M. E. (2008). Briófitos reófilos de tres quebradas del páramo de Mamapacha, Chinavita, Boyacá, Colombia.</p>
+        <p>Pedroza-Manrique, J. A., & Caballero-Arévalo, D. (2009). Evaluación del efecto del medio MS y la temperatura en el desarrollo de propágulos de <em>Marchantia polymorpha</em> L. bajo condiciones in vitro y ex vitro.</p>
+        <p>Shimamura, M. (2016). Marchantia polymorpha: Taxonomy, phylogeny and morphology. <em>Journal of Plant Research</em>.</p>
+      </div>
+      <p class="muted small">La bibliografía completa puede ampliarse antes de publicar la versión definitiva.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><strong><em>Marchantia polymorpha</em></strong></div>
+    <div>Material complementario · Universidad Distrital Francisco José de Caldas</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
