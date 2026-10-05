@@ -139,3 +139,17 @@ model-viewer { width: 100%; height: 310px; background: #eef3ef; border-radius: 1
   .section, .section-narrow { padding-top: 54px; padding-bottom: 54px; }
   .section.alt { padding-left: 4vw; padding-right: 4vw; }
 }
+.scientific-note {
+  margin: 24px 0;
+  padding: 18px 20px;
+  border-left: 4px solid var(--green-700);
+  background: var(--green-50);
+  border-radius: 10px;
+  line-height: 1.65;
+}
+
+.scientific-note strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--green-900);
+}
