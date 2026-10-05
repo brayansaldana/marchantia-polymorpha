@@ -15,9 +15,9 @@ const sexual = [
 ];
 
 const sporophyte = [
-  ['01', 'Cápsula cerrada', 'Estado previo a la apertura y liberación.'],
-  ['02', 'Cápsula abierta', 'Estado maduro con apertura de la cápsula.'],
-  ['03', 'Esporas', 'Esporas de morfología circular con cloroplastos visibles.']
+  ['01', 'Cápsula inmadura', 'assets/images/S1.jpg', 'Esporófito en estado temprano; cápsula aún cerrada.'],
+  ['02', 'Cápsula cerrada', 'assets/images/S2.jpg', 'Estado previo a la apertura y liberación de las esporas.'],
+  ['03', 'Cápsula abierta', 'assets/images/S3.jpg', 'Estado maduro con apertura de la cápsula y liberación de esporas.']
 ];
 
 const models = [
@@ -57,8 +57,16 @@ function imageCard(item) {
 
 document.getElementById('talo-cards').innerHTML = talo.map(imageCard).join('');
 document.getElementById('sexual-cards').innerHTML = sexual.map(imageCard).join('');
-document.getElementById('timeline').innerHTML = sporophyte.map(([n,t,txt]) => `
-  <article class="timeline-item"><div class="timeline-num">${n}</div><div class="timeline-title">${t}</div><div class="timeline-text">${txt}</div></article>
+document.getElementById('timeline').innerHTML = sporophyte.map(([n,t,src,txt]) => `
+  <article class="timeline-item">
+    <img class="timeline-image" src="${src}" alt="${t}" loading="lazy"
+         onerror="this.src='assets/images/placeholder.svg'" />
+    <div class="timeline-content">
+      <div class="timeline-num">${n}</div>
+      <div class="timeline-title">${t}</div>
+      <div class="timeline-text">${txt}</div>
+    </div>
+  </article>
 `).join('');
 document.getElementById('model-grid').innerHTML = models.map(([title,src,note]) => `
   <article class="model-card">
