@@ -15,10 +15,9 @@ const sexual = [
 ];
 
 const sporophyte = [
-  ['01', 'Cápsula inmadura', 'Esporófito en estado temprano; cápsula cerrada.'],
-  ['02', 'Cápsula cerrada', 'Estado previo a la apertura y liberación.'],
-  ['03', 'Cápsula abierta', 'Estado maduro con apertura de la cápsula.'],
-  ['04', 'Esporas', 'Esporas de morfología circular con cloroplastos visibles.']
+  ['01', 'Cápsula cerrada', 'Estado previo a la apertura y liberación.'],
+  ['02', 'Cápsula abierta', 'Estado maduro con apertura de la cápsula.'],
+  ['03', 'Esporas', 'Esporas de morfología circular con cloroplastos visibles.']
 ];
 
 const models = [
