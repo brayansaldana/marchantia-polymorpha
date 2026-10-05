@@ -1,9 +1,18 @@
 const talo = [
-  ['A', 'Cara ventral del talo', 'assets/images/A.jpg', 'Vista macroscópica con rizoides.'],
-  ['B', 'Cara dorsal del talo', 'assets/images/B.jpg', 'Superficie dorsal del gametófito.'],
-  ['D', 'Cestas y propágulos', 'assets/images/D.jpg', 'Conceptáculos con propágulos desarrollados.'],
-  ['G', 'Corte transversal del talo', 'assets/images/G.jpg', 'Organización interna del talo.'],
-  ['H', 'Cámara aerífera', 'assets/images/H.jpg', 'Detalle microscópico de la cámara aerífera.']
+  ['A', 'Cara ventral del talo', 'assets/images/A.jpg',
+   'La superficie ventral presenta rizoides lisos y tuberculados, además de escamas ventrales. Los rizoides permiten el anclaje al sustrato y participan en el transporte de agua; estudios recientes muestran además que pueden absorber fosfato y contribuir a su distribución dentro del talo.'],
+
+  ['B', 'Cara dorsal del talo', 'assets/images/B.jpg',
+   'La superficie dorsal presenta un patrón de cámaras aeríferas comunicadas con el exterior mediante poros. En el interior de las cámaras se encuentran filamentos ricos en cloroplastos que contribuyen a la asimilación fotosintética y al intercambio gaseoso.'],
+
+  ['D', 'Cestas y propágulos', 'assets/images/D.jpg',
+   'Las cestas de propágulos o conceptáculos gemíferos son estructuras de reproducción asexual. En su interior se forman gemas multicelulares que, al dispersarse, pueden originar nuevos talos genéticamente clonales.'],
+
+  ['G', 'Corte transversal del talo', 'assets/images/G.jpg',
+   'El talo presenta una organización dorsiventral, con una región dorsal fotosintética, una zona interna de almacenamiento y una superficie ventral asociada con escamas y rizoides. Esta organización permite separar espacialmente las funciones de captura de luz, intercambio gaseoso, almacenamiento y adhesión al sustrato.'],
+
+  ['H', 'Cámara aerífera', 'assets/images/H.jpg',
+   'Las cámaras aeríferas son espacios intercelulares amplios conectados con la atmósfera mediante un poro. Contienen filamentos fotosintéticos y favorecen la difusión de CO₂ y O₂ hacia los tejidos fotosintéticos.']
 ];
 
 const sexual = [
