@@ -38,9 +38,9 @@ const gallery = [
   ['H', 'assets/images/H.jpg', 'Cámara aerífera'],
   ['I', 'assets/images/I.jpg', 'Corte transversal de arquegonióforo'],
   ['J', 'assets/images/J.jpg', 'Arquegonio'],
-  ['S1', 'assets/images/esporofito-inmaduro.jpg', 'Esporófito inmaduro'],
-  ['S2', 'assets/images/esporofito-maduro.jpg', 'Esporófito maduro / cápsula abierta'],
-  ['S3', 'assets/images/esporas.jpg', 'Esporas']
+  ['S1', 'assets/images/S1.jepg', 'Esporófito inmaduro'],
+  ['S2', 'assets/images/S2.jepg', 'Esporófito maduro / cápsula abierta'],
+  ['S3', 'assets/images/S3.jepg', 'Esporas']
 ];
 
 function imageCard(item) {
