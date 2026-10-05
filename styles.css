@@ -68,7 +68,40 @@ h2 { font-size: clamp(2rem, 5vw, 3.2rem); margin: 0 0 14px; line-height: 1.1; }
 .card-meta { color: var(--muted); font-size: .88rem; }
 
 .timeline { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 14px; }
-.timeline-item { padding: 18px; position: relative; }
+.timeline-item { position: relative; }
+
+.timeline-image {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+}
+
+.timeline-content {
+  padding: 18px;
+}
+
+.timeline-num {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--green-100);
+  color: var(--green-900);
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.timeline-title {
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.timeline-text {
+  font-size: .9rem;
+  color: var(--muted);
+}
 .timeline-num { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 50%; background: var(--green-100); color: var(--green-900); font-weight: 800; margin-bottom: 12px; }
 .timeline-title { font-weight: 800; margin-bottom: 4px; }
 .timeline-text { font-size: .9rem; color: var(--muted); }
